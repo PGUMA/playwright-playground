@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test-ct": "playwright test -c playwright-ct.config.ts",
+    "test:e2e": "playwright test -c playwright.config.ts",
     "test:gen": "playwright codegen"
   },
   "keywords": [],
@@ -12,6 +13,7 @@
   "license": "ISC",
   "devDependencies": {
     "@playwright/experimental-ct-react": "^1.41.2",
+    "@playwright/test": "^1.41.2",
     "@types/node": "^20.11.16"
   },
   "volta": {
